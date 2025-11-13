@@ -1,56 +1,59 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechCon 2025 Conference</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <header>
-        <h1>Ama Sankani</h1>
-    </header>
-    
-    <h1>Ama Sankani</h1>
-    <h2>"personal Portfolio - Coming Soon."</h2>
-    <p>My name is Ama Sankani.I am 23 years old.I study at Gampaha Wickramarachchi University of Indigenous Medicine.My future ambition is to become a Biomedical Technologiest.</p>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Header -->
+  <header>
+    <h1>TechCon 2025</h1>
+    <p>The Future of Technology & Innovation</p>
+    <button id="themeToggle">🌙 Toggle Dark Mode</button>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I am a beginner web developer learning HTML, CSS, and GitHub.</p>
-    </section>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About the Conference</h2>
+    <p>TechCon 2025 brings together global tech leaders, developers, and innovators for three days of talks, workshops, and networking. Join us to explore the future of AI, Cloud, and Web Technologies.</p>
+  </section>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <article>
-        <h3>Project 1: Simple Website</h3>
-        <p>A responsive website built using HTML and CSS.</p>
-      </article>
-      <article>
-        <h1>hi hi hi ama </h1>
-        <h3>Project 2: JavaScript Calculator</h3>
-        <p>A calculator app made with JavaScript.</p>
-      </article>
-    </section>
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Event Schedule</h2>
+    <div id="event-container" class="event-grid"></div>
+  </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email:amasankani@gmail.com</p>
-    </section>
-  </main>
+  <!-- Speakers Section -->
+  <section id="speakers">
+    <h2>Featured Speakers</h2>
+    <div class="speaker-grid">
+      <div class="speaker-card">
+        <img src="images/speaker1.jpg" alt="Dr. Evelyn Reed">
+        <h3>Dr. Evelyn Reed</h3>
+        <p>AI Researcher & Keynote Speaker</p>
+      </div>
+      <div class="speaker-card">
+        <img src="image.jpeg" alt="Mark Johnson">
+        <h3>Mark Johnson</h3>
+        <p>Senior Web Engineer, CloudWorks</p>
+      </div>
+      <div class="speaker-card">
+        <img src="images/speaker3.jpg" alt="Sara Kim">
+        <h3>Sara Kim</h3>
+        <p>UX Designer & Workshop Host</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 My Portfolio. All rights reserved.</p>
+    <p>© 2025 TechCon Conference | Designed by Ama Sankani</p>
   </footer>
 
+  <script src="index.js"></script>
 </body>
 </html>
